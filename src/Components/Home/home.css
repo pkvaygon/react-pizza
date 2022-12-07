@@ -1,0 +1,186 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fixedHeader {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.totalPrice {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FE5F1E;
+    border-radius: 30px;
+    color: white;
+    border: 0;
+}
+
+.totalBasket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderLine {
+    width: 100%;
+    height: 2px;
+    background: #FE5F1E;
+    margin: 20px auto;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    width: 132px;
+    height: 46px;
+    border-radius: 30px;
+    list-style: none;
+    background: #F9F9F9;
+    font-size: 16px;
+}
+
+li:hover {
+    background: #282828;
+    color: white;
+}
+
+.title_2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Proxima Nova', sans-serif;
+    letter-spacing: 0.01em;
+    margin: 10px auto;
+}
+
+.flex_pizza {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 25%;
+    margin: 80px auto;
+}
+
+.buttons {
+    background: #d8d4d4;
+    border-radius: 10px;
+}
+
+.swap_button {
+    display: flex;
+    padding: 5px 10px;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.swap_button button {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    color: #2C2C2C;
+    width: 132px;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.3s;
+}
+
+.size_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+}
+
+.size_buttons button {
+    padding: 10px 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    flex: 0 1 31%;
+    transition: 0.3s;
+}
+
+.selected {
+    background: #fff;
+}
+
+.non-active {
+    background: transparent;
+}
+
+.flex_pizza {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.empty {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}

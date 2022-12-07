@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+
+
+.flex_pizza {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 25%;
+    margin: 80px auto;
+}
+
+/* .card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+} */
+
+.buttons {
+    background: #d8d4d4;
+    border-radius: 10px;
+}
+
+.swap_button {
+    display: flex;
+    padding: 5px 10px;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.swap_button button {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    color: #2C2C2C;
+    width: 132px;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.3s;
+}
+
+.size_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+}
+
+.size_buttons button {
+    padding: 10px 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    flex: 0 1 31%;
+    transition: 0.3s;
+}
+
+.selected {
+    background: #fff;
+}
+
+.non-active {
+    background: transparent;
+}
+
+.flex_pizza {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.basket {
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket button {
+    border: 0;
+    background: orange;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: 60ms;
+}
+
+.basket button:hover:focus {
+    transform: scale(0.9);
+}
